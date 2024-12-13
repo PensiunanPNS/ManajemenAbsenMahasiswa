@@ -16,7 +16,7 @@ namespace AbsensiMahasiswa.Controllers
        //Check Username dan password dari admin
         public bool CheckAdminCredentials(string username, string password)
         {
-            // Query untuk memeriksa username dan password
+        //Query untuk memeriksa apakah username dan password yang dimasukkan benar.
             string query = $"SELECT COUNT(*) FROM Admin WHERE Username = @Username AND Password = @Password";
 
             using (var connection = new MySqlConnection(connectionString))
