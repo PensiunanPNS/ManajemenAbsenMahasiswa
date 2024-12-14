@@ -6,44 +6,52 @@ namespace AbsensiMahasiswa.Controllers
 {
     public class LoginController
     {
-        private string connectionString;
+        private readonly DatabaseHelper _databaseHelper;
 
-        public LoginController(string server, string database, string userId, string password)
+        public LoginController(DatabaseHelper databaseHelper)
         {
-            connectionString = $"Server={server};Database={database};User ID={userId};Password={password};";
+            _databaseHelper = databaseHelper;
         }
 
-       //Check Username dan password dari admin
-        public bool CheckAdminCredentials(string username, string password)
-        {
-        //Query untuk memeriksa apakah username dan password yang dimasukkan benar.
-            string query = $"SELECT COUNT(*) FROM Admin WHERE Username = @Username AND Password = @Password";
 
-            using (var connection = new MySqlConnection(connectionString))
+     
+        /// Jangan DIHAPUS!
+        /// Auth admin berdasarkan username and password dan return the admin ID.
+     
+        /// <param name="username">Admin username</param>
+        /// <param name="password">Admin password</param>
+      
+        public int Authenticate(string username, string password)
+        {
+            string query = "SELECT admin_id FROM Admin WHERE Username = @Username AND Password = @Password";
+
+            using (var connection = _databaseHelper.GetConnection())
             {
                 try
                 {
                     connection.Open();
-                    MySqlCommand cmd = new MySqlCommand(query, connection);
-                    cmd.Parameters.AddWithValue("@Username", username);
-                    cmd.Parameters.AddWithValue("@Password", password);  
+                    using (var cmd = connection.CreateCommand())
+                    {
+                        cmd.CommandText = query;
+                        cmd.Parameters.AddWithValue("@Username", username);
+                        cmd.Parameters.AddWithValue("@Password", password);
 
-                    var result = Convert.ToInt32(cmd.ExecuteScalar());
+                        object result = cmd.ExecuteScalar();
 
-                    return result > 0;  // Jika ada hasil, berarti login berhasil
+                        if (result != null && int.TryParse(result.ToString(), out int adminId))
+                        {
+                            return adminId;  // Return the admin ID if login is successful
+                        }
+                    }
                 }
                 catch (Exception ex)
                 {
                     Console.WriteLine("Error: " + ex.Message);
-                    return false;
                 }
             }
-        }
 
-        public bool Login(string username, string password)
-        {
-            //Chcek credentials
-            return CheckAdminCredentials(username, password);
+            // Return -1 if authentication fails or an error occurs
+            return -1;
         }
     }
 }
