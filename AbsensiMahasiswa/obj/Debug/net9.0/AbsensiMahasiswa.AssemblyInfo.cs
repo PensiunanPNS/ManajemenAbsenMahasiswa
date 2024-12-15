@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AbsensiMahasiswa")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+902e02180c5608a6c8167c655aee047b5b2bf872")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88c7c6a37a65181b806ada616e5bc440eedc11cd")]
 [assembly: System.Reflection.AssemblyProductAttribute("AbsensiMahasiswa")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AbsensiMahasiswa")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
