@@ -20,36 +20,36 @@ namespace AbsensiMahasiswa.Views
 
         public void Show()
         {
-            bool exit = false;
-            bool loggedIn = false;
+            bool exit_0602 = false;
+            bool loggedIn_0602 = false;
 
-            while (!exit)
+            while (!exit_0602)
             {
                 Console.Clear();
 
                 //logged in menu kalo login
-                if (loggedIn)
+                if (loggedIn_0602)
                 {
                     ShowMainMenu();
-                    string pilihan = Console.ReadLine();
+                    string pilihan_0602 = Console.ReadLine();
 
-                    switch (pilihan)
+                    switch (pilihan_0602)
                     {
                         case "1":
                             // Navigate to MahasiswaView
-                            MahasiswaView mahasiswaView = new MahasiswaView(_mahasiswaController, this);
-                            mahasiswaView.Show();
+                            MahasiswaView mahasiswaView_0602 = new MahasiswaView(_mahasiswaController, this);
+                            mahasiswaView_0602.Show();
                             break;
 
                         case "2":
                             // Navigate to AbsensiView
-                            AbsensiView absensiView = new AbsensiView(_absensiController, _mahasiswaController, _idAdmin);
-                            absensiView.Show();
+                            AbsensiView absensiView_0602 = new AbsensiView(_absensiController, _mahasiswaController, _idAdmin);
+                            absensiView_0602.Show();
                             break;
 
                         case "3":
                             Console.WriteLine("Exit...");
-                            exit = true;
+                            exit_0602 = true;
                             break;
 
                         default:
@@ -64,22 +64,22 @@ namespace AbsensiMahasiswa.Views
                     Console.WriteLine("1. Login");
                     Console.WriteLine("2. Exit");
                     Console.Write("Pilih opsi (1/2): ");
-                    string pilihan = Console.ReadLine();
+                    string pilihan_0602 = Console.ReadLine();
 
-                    switch (pilihan)
+                    switch (pilihan_0602)
                     {
                         case "1":
                            
                             int idAdmin = Login();
                             if (idAdmin != -1)
                             {
-                                loggedIn = true;
+                                loggedIn_0602 = true;
                                 _idAdmin = idAdmin; //simpen id amdin yang login
                             }
                             break;
 
                         case "2":
-                            exit = true;
+                            exit_0602 = true;
                             Console.WriteLine("Terima kasih telah menggunakan aplikasi. Keluar...");
                             break;
 
@@ -100,45 +100,44 @@ namespace AbsensiMahasiswa.Views
             Console.Write("Pilih opsi (1/2/3): ");
         }
 
-      private int Login()
-{
-    int maxAttempts = 3;
-    int attemptCount = 0;
-
-    while (attemptCount < maxAttempts)
-    {
-        Console.Clear();
-        Console.WriteLine("=== Login Page ===");
-        Console.Write("Masukkan Username: ");
-        string username = Console.ReadLine();
-        Console.Write("Masukkan Password: ");
-        string password = Console.ReadLine();
-
-        // Auth admin
-        int adminId = _loginController.Authenticate(username, password);
-
-        if (adminId != -1)  // login sukses
+        private int Login()
         {
-            Console.WriteLine("Login Berhasil!");
-            return adminId;  // Return admin ID 
-        }
-        else
-        {
-            attemptCount++;
-            Console.WriteLine($"Login Gagal! Username atau Password salah. Percobaan ke-{attemptCount}/{maxAttempts}");
+            int maxAttempts_0602 = 3;
+            int attemptCount_0602 = 0;
 
-            if (attemptCount == maxAttempts)
+            while (attemptCount_0602 < maxAttempts_0602)
             {
-                Console.WriteLine("Terlalu banyak percobaan login gagal. Keluar aplikasi.");
-                Environment.Exit(0);  //3x gagal exit
+                Console.Clear();
+                Console.WriteLine("=== Login Page ===");
+                Console.Write("Masukkan Username: ");
+                string username_0602 = Console.ReadLine();
+                Console.Write("Masukkan Password: ");
+                string password_0602 = Console.ReadLine();
+
+                // Auth admin
+                int adminId = _loginController.Authenticate(username_0602, password_0602);
+
+                if (adminId != -1)  // login sukses
+                {
+                    Console.WriteLine("Login Berhasil!");
+                    return adminId;  // Return admin ID 
+                }
+                else
+                {
+                    attemptCount_0602++;
+                    Console.WriteLine($"Login Gagal! Username atau Password salah. Percobaan ke-{attemptCount_0602}/{maxAttempts_0602}");
+
+                    if (attemptCount_0602 == maxAttempts_0602)
+                    {
+                        Console.WriteLine("Terlalu banyak percobaan login gagal. Keluar aplikasi.");
+                        Environment.Exit(0);  //3x gagal exit
+                    }
+                }
+
+                Console.WriteLine("Tekan Enter untuk mencoba lagi...");
+                Console.ReadLine();
             }
+            return -1; 
         }
-
-        Console.WriteLine("Tekan Enter untuk mencoba lagi...");
-        Console.ReadLine();
-    }
-
-    return -1; 
-}
     }
 }

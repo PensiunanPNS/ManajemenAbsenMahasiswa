@@ -72,3 +72,77 @@ D:\ManajemenAbsenMahasiswa\AbsensiMahasiswa\obj\Debug\net9.0\refint\AbsensiMahas
 D:\ManajemenAbsenMahasiswa\AbsensiMahasiswa\obj\Debug\net9.0\AbsensiMahasiswa.pdb
 D:\ManajemenAbsenMahasiswa\AbsensiMahasiswa\obj\Debug\net9.0\AbsensiMahasiswa.genruntimeconfig.cache
 D:\ManajemenAbsenMahasiswa\AbsensiMahasiswa\obj\Debug\net9.0\ref\AbsensiMahasiswa.dll
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\AbsensiMahasiswa.exe
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\AbsensiMahasiswa.deps.json
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\AbsensiMahasiswa.runtimeconfig.json
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\AbsensiMahasiswa.dll
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\AbsensiMahasiswa.pdb
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\Google.Protobuf.dll
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\K4os.Compression.LZ4.dll
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\K4os.Compression.LZ4.Streams.dll
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\K4os.Hash.xxHash.dll
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\MySql.Data.dll
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\System.Security.Permissions.dll
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\System.Windows.Extensions.dll
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\ZstdSharp.dll
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\runtimes\win-x64\native\comerr64.dll
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\runtimes\win-x64\native\gssapi64.dll
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\runtimes\win-x64\native\k5sprt64.dll
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\runtimes\win-x64\native\krb5_64.dll
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\runtimes\win-x64\native\krbcc64.dll
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\obj\Debug\net9.0\AbsensiMahasiswa.csproj.AssemblyReference.cache
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\obj\Debug\net9.0\AbsensiMahasiswa.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\obj\Debug\net9.0\AbsensiMahasiswa.AssemblyInfoInputs.cache
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\obj\Debug\net9.0\AbsensiMahasiswa.AssemblyInfo.cs
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\obj\Debug\net9.0\AbsensiMahasiswa.csproj.CoreCompileInputs.cache
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\obj\Debug\net9.0\AbsensiMahasiswa.sourcelink.json
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\obj\Debug\net9.0\AbsensiM.8EF8DCC3.Up2Date
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\obj\Debug\net9.0\AbsensiMahasiswa.dll
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\obj\Debug\net9.0\refint\AbsensiMahasiswa.dll
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\obj\Debug\net9.0\AbsensiMahasiswa.pdb
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\obj\Debug\net9.0\AbsensiMahasiswa.genruntimeconfig.cache
+D:\ProjekProjekan\TubesAlPro\udh slesai\ManajemenAbsenMahasiswa\AbsensiMahasiswa\obj\Debug\net9.0\ref\AbsensiMahasiswa.dll
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\obj\Debug\net9.0\AbsensiMahasiswa.csproj.AssemblyReference.cache
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\obj\Debug\net9.0\AbsensiMahasiswa.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\obj\Debug\net9.0\AbsensiMahasiswa.AssemblyInfoInputs.cache
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\obj\Debug\net9.0\AbsensiMahasiswa.AssemblyInfo.cs
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\obj\Debug\net9.0\AbsensiMahasiswa.csproj.CoreCompileInputs.cache
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\obj\Debug\net9.0\AbsensiMahasiswa.sourcelink.json
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\obj\Debug\net9.0\AbsensiMahasiswa.dll
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\obj\Debug\net9.0\refint\AbsensiMahasiswa.dll
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\obj\Debug\net9.0\AbsensiMahasiswa.pdb
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\AbsensiMahasiswa.exe
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\AbsensiMahasiswa.deps.json
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\AbsensiMahasiswa.runtimeconfig.json
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\AbsensiMahasiswa.dll
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\AbsensiMahasiswa.pdb
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\Google.Protobuf.dll
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\K4os.Compression.LZ4.dll
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\K4os.Compression.LZ4.Streams.dll
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\K4os.Hash.xxHash.dll
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\MySql.Data.dll
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\System.Security.Permissions.dll
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\System.Windows.Extensions.dll
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\ZstdSharp.dll
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\runtimes\win-x64\native\comerr64.dll
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\runtimes\win-x64\native\gssapi64.dll
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\runtimes\win-x64\native\k5sprt64.dll
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\runtimes\win-x64\native\krb5_64.dll
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\runtimes\win-x64\native\krbcc64.dll
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\obj\Debug\net9.0\AbsensiM.8EF8DCC3.Up2Date
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\obj\Debug\net9.0\AbsensiMahasiswa.genruntimeconfig.cache
+D:\ProjekProjekan\TubesAlPro\ManajemenAbsenMahasiswa\AbsensiMahasiswa\obj\Debug\net9.0\ref\AbsensiMahasiswa.dll
