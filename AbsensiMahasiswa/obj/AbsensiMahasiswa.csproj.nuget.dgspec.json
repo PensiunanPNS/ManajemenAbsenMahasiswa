@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ManajemenAbsenMahasiswa\\AbsensiMahasiswa\\AbsensiMahasiswa.csproj": {}
+    "D:\\ProjekProjekan\\TubesAlPro\\ManajemenAbsenMahasiswa\\AbsensiMahasiswa\\AbsensiMahasiswa.csproj": {}
   },
   "projects": {
-    "D:\\ManajemenAbsenMahasiswa\\AbsensiMahasiswa\\AbsensiMahasiswa.csproj": {
+    "D:\\ProjekProjekan\\TubesAlPro\\ManajemenAbsenMahasiswa\\AbsensiMahasiswa\\AbsensiMahasiswa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ManajemenAbsenMahasiswa\\AbsensiMahasiswa\\AbsensiMahasiswa.csproj",
+        "projectUniqueName": "D:\\ProjekProjekan\\TubesAlPro\\ManajemenAbsenMahasiswa\\AbsensiMahasiswa\\AbsensiMahasiswa.csproj",
         "projectName": "AbsensiMahasiswa",
-        "projectPath": "D:\\ManajemenAbsenMahasiswa\\AbsensiMahasiswa\\AbsensiMahasiswa.csproj",
-        "packagesPath": "C:\\Users\\Arya Prathama\\.nuget\\packages\\",
-        "outputPath": "D:\\ManajemenAbsenMahasiswa\\AbsensiMahasiswa\\obj\\",
+        "projectPath": "D:\\ProjekProjekan\\TubesAlPro\\ManajemenAbsenMahasiswa\\AbsensiMahasiswa\\AbsensiMahasiswa.csproj",
+        "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
+        "outputPath": "D:\\ProjekProjekan\\TubesAlPro\\ManajemenAbsenMahasiswa\\AbsensiMahasiswa\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Arya Prathama\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -36,7 +36,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

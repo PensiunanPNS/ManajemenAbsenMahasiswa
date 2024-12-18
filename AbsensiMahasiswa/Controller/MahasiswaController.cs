@@ -16,7 +16,7 @@ namespace AbsensiMahasiswa.Controllers
             _databaseHelper = databaseHelper;
         }
 
-        // Method untuk menambahkan mahasiswa
+        // Function untuk menambahkan mahasiswa
         public void InsertMahasiswa(Mahasiswa mahasiswa)
         {
             using (var connection = _databaseHelper.GetConnection())
@@ -66,8 +66,8 @@ namespace AbsensiMahasiswa.Controllers
             }
         }
 
-        // Method untuk menghapus mahasiswa berdasarkan NIM
-         public bool DeleteMahasiswa(string nim)
+        // Function untuk menghapus mahasiswa berdasarkan NIM
+        public bool DeleteMahasiswa(string nim)
         {
             using (var connection = _databaseHelper.GetConnection())
             {
@@ -92,7 +92,7 @@ namespace AbsensiMahasiswa.Controllers
             }
         }
 
-        // Method untuk mendapatkan mahasiswa berdasarkan NIM
+        // Function untuk mendapatkan mahasiswa berdasarkan NIM
         public Mahasiswa GetMahasiswaByNIM(string nim)
         {
             using (var connection = _databaseHelper.GetConnection())
@@ -134,7 +134,7 @@ namespace AbsensiMahasiswa.Controllers
             return null; // Return null kalo gk ditemukan
         }
 
-        // Method untuk memperbarui mahasiswa
+        // Function untuk memperbarui mahasiswa
         public bool UpdateMahasiswa(Mahasiswa mahasiswa)
         {
             using (var connection = _databaseHelper.GetConnection())
@@ -187,7 +187,7 @@ namespace AbsensiMahasiswa.Controllers
             }
         }
     
-     // Method  mendapatkan semua kelas
+        // Function  mendapatkan semua kelas
         public List<Kelas> GetAllKelas()
         {
             List<Kelas> kelasList = new List<Kelas>();
@@ -219,7 +219,7 @@ namespace AbsensiMahasiswa.Controllers
             return kelasList;
         }
 
-        // Method  mendapatkan semua mahasiswa dalam sebuah kelas
+        // Function  mendapatkan semua mahasiswa dalam sebuah kelas
           public List<Mahasiswa> GetMahasiswaByKelas(int idKelas)
         {
             var mahasiswaList = new List<Mahasiswa>();
@@ -265,5 +265,3 @@ namespace AbsensiMahasiswa.Controllers
         }
     }
 }
-
-

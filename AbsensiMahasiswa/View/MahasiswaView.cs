@@ -53,42 +53,42 @@ namespace AbsensiMahasiswa.Views
             _loginView.ShowMainMenu(); // Balik ke menu utama
         }
 
-private int SelectKelas()
-{
-    bool exit = false;
-    while (!exit)
-    {
-        var kelasList = _mahasiswaController.GetAllKelas();
-        if (kelasList.Count == 0)
+        private int SelectKelas()
         {
-            Console.WriteLine("\nTidak ada kelas yang tersedia.");
-            Console.Write("Kembali ke menu mahasiswa? (y/n): ");
-            exit = Console.ReadLine().ToLower() != "y";
-            if (exit)
+            bool exit = false;
+            while (!exit)
             {
-                return -1; // Balik ke menu utama
+                var kelasList = _mahasiswaController.GetAllKelas();
+                if (kelasList.Count == 0)
+                {
+                    Console.WriteLine("\nTidak ada kelas yang tersedia.");
+                    Console.Write("Kembali ke menu mahasiswa? (y/n): ");
+                    exit = Console.ReadLine().ToLower() != "y";
+                    if (exit)
+                    {
+                        return -1; // Balik ke menu utama
+                    }
+                    continue; // loop kalau masih mau di menu
+                }
+
+                Console.WriteLine("\n=== Daftar Kelas ===");
+                for (int i = 0; i < kelasList.Count; i++)
+                {
+                    Console.WriteLine($"{i + 1}. {kelasList[i].NamaKelas}");
+                }
+
+                Console.Write("Pilih kelas (1-{0}): ", kelasList.Count);
+                int pilihan;
+                while (!int.TryParse(Console.ReadLine(), out pilihan) || pilihan < 1 || pilihan > kelasList.Count)
+                {
+                    Console.Write("Pilihan tidak valid. Masukkan angka antara 1 dan {0}: ", kelasList.Count);
+                }
+
+                return kelasList[pilihan - 1].IdKelas; // Pilihan valid, keluar dari loop
             }
-            continue; // loop kalau masih mau di menu
+
+            return -1; // exit adalah true
         }
-
-        Console.WriteLine("\n=== Daftar Kelas ===");
-        for (int i = 0; i < kelasList.Count; i++)
-        {
-            Console.WriteLine($"{i + 1}. {kelasList[i].NamaKelas}");
-        }
-
-        Console.Write("Pilih kelas (1-{0}): ", kelasList.Count);
-        int pilihan;
-        while (!int.TryParse(Console.ReadLine(), out pilihan) || pilihan < 1 || pilihan > kelasList.Count)
-        {
-            Console.Write("Pilihan tidak valid. Masukkan angka antara 1 dan {0}: ", kelasList.Count);
-        }
-
-        return kelasList[pilihan - 1].IdKelas; // Pilihan valid, keluar dari loop
-    }
-
-    return -1; // exit adalah true
-}
 
 
         private Mahasiswa SelectMahasiswaByKelas(int idKelas)
@@ -117,61 +117,61 @@ private int SelectKelas()
             return mahasiswaList[pilihan - 1];
         }
 
-       private void InsertMahasiswa()
-{
-    bool exit = false;
-    while (!exit)
-    {
-        Console.WriteLine("\n=== Masukkan Mahasiswa ===");
-
-        Console.Write("Berapa banyak mahasiswa yang ingin dimasukkan? ");
-        int jumlahMahasiswa;
-        while (!int.TryParse(Console.ReadLine(), out jumlahMahasiswa) || jumlahMahasiswa <= 0)
+        private void InsertMahasiswa()
         {
-            Console.Write("Masukkan jumlah yang valid (lebih besar dari 0): ");
-        }
-
-        for (int i = 0; i < jumlahMahasiswa; i++)
-        {
-            Console.WriteLine($"\nMasukkan Mahasiswa {i + 1}:");
-
-            Console.Write("Masukkan Nama Mahasiswa: ");
-            string nama = Console.ReadLine();
-
-            Console.Write("Masukkan NIM Mahasiswa: ");
-            string nim = Console.ReadLine();
-
-            Console.Write("Masukkan Nama Kelas Mahasiswa: ");
-            string kelas = Console.ReadLine();
-
-            Mahasiswa mahasiswa = new Mahasiswa
+            bool exit = false;
+            while (!exit)
             {
-                Nama = nama,
-                NIM = nim,
-                Status = "Aktif", // Default status
-                Kelas = new Kelas { NamaKelas = kelas } // Object dari model
-            };
+                Console.WriteLine("\n=== Masukkan Mahasiswa ===");
 
-            _mahasiswaController.InsertMahasiswa(mahasiswa);
+                Console.Write("Berapa banyak mahasiswa yang ingin dimasukkan? ");
+                int jumlahMahasiswa;
+                while (!int.TryParse(Console.ReadLine(), out jumlahMahasiswa) || jumlahMahasiswa <= 0)
+                {
+                    Console.Write("Masukkan jumlah yang valid (lebih besar dari 0): ");
+                }
+
+                for (int i = 0; i < jumlahMahasiswa; i++)
+                {
+                    Console.WriteLine($"\nMasukkan Mahasiswa {i + 1}:");
+
+                    Console.Write("Masukkan Nama Mahasiswa: ");
+                    string nama = Console.ReadLine();
+
+                    Console.Write("Masukkan NIM Mahasiswa: ");
+                    string nim = Console.ReadLine();
+
+                    Console.Write("Masukkan Nama Kelas Mahasiswa: ");
+                    string kelas = Console.ReadLine();
+
+                    Mahasiswa mahasiswa = new Mahasiswa
+                    {
+                        Nama = nama,
+                        NIM = nim,
+                        Status = "Aktif", // Default status
+                        Kelas = new Kelas { NamaKelas = kelas } // Object dari model
+                    };
+
+                    _mahasiswaController.InsertMahasiswa(mahasiswa);
+                }
+
+                Console.WriteLine("\nSemua mahasiswa berhasil ditambahkan!");
+
+                Console.Write("Kembali ke menu mahasiswa? (y/n): ");
+                string pilihan = Console.ReadLine().ToLower();
+
+                if (pilihan == "y")
+                {
+                    exit = true; // Keluar dari loop dan kembali ke menu utama
+                }
+                else if (pilihan != "n")
+                {
+                    Console.WriteLine("Ups pilihan tidak valid. Harap pilih 'y' untuk kembali atau 'n' untuk tetap di menu ini.");
+                }
+            }
         }
 
-        Console.WriteLine("\nSemua mahasiswa berhasil ditambahkan!");
-
-        Console.Write("Kembali ke menu mahasiswa? (y/n): ");
-        string pilihan = Console.ReadLine().ToLower();
-
-        if (pilihan == "y")
-        {
-            exit = true; // Keluar dari loop dan kembali ke menu utama
-        }
-        else if (pilihan != "n")
-        {
-            Console.WriteLine("Ups pilihan tidak valid. Harap pilih 'y' untuk kembali atau 'n' untuk tetap di menu ini.");
-        }
-    }
-}
-
-       public void DeleteMahasiswa()
+        public void DeleteMahasiswa()
         {
              bool exit = false;
             while (!exit)

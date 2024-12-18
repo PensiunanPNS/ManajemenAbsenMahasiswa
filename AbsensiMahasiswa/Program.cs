@@ -22,12 +22,12 @@ namespace AbsensiMahasiswa
             LoginController loginController = new LoginController(databaseHelper);
 
             // instance login view x controller
-            LoginView loginView = new LoginView(loginController, mahasiswaController,absensiController);
+            LoginView loginView_0602 = new LoginView(loginController, mahasiswaController,absensiController);
 
 
 
             // Menampilkan Login View
-            loginView.Show();
+            loginView_0602.Show();
         }
     }
 }
